@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="stock_hospital_form_view" model="ir.ui.view">
+        <field name="name">stock.hospital.form</field>
+        <field name="model">stock.hospital</field>
+        <field name="arch" type="xml">
+            <form string="Hospital">
+                <sheet>
+                    <group col="1">
+                        <field string="Visitor's name" name="name"/>
+                    </group>
+                    <group col="4">
+                        <field name="description_visit"/>
+                        <field name="datetime_visit"/>
+                    </group>
+                    <group col="4">
+                        <field name="patient"/>
+                    </group>
+                </sheet>
+           </form>
+        </field>
+    </record>
+
+    <record id="stock_hospital_tree_view" model="ir.ui.view">
+        <field name="name">stock.hospital.tree</field>
+        <field name="model">stock.hospital</field>
+        <field name="arch" type="xml">
+            <tree string="Hospital">
+                <field name="name"/>
+                <field name="description_visit"/>
+                <field name="patient"/>
+                <field name="datetime_visit"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_stock_hospital" model="ir.actions.act_window">
+        <field name="name">Hospital</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">stock.hospital</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_stock_hospital" name="Hospital"
+              parent="stock.menu_stock_root"
+              action="action_stock_hospital"/>
+
+</odoo>

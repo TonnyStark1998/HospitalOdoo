@@ -1,0 +1,85 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_hospital
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20230918\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-18 09:49+0000\n"
+"PO-Revision-Date: 2023-09-18 09:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__create_uid
+msgid "Created by"
+msgstr "Creado por "
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__create_date
+msgid "Created on"
+msgstr "Creado el "
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__datetime_visit
+msgid "Date and time"
+msgstr "Fecha y hora"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: stock_hospital
+#: model:ir.actions.act_window,name:stock_hospital.action_stock_hospital
+#: model:ir.ui.menu,name:stock_hospital.menu_stock_hospital
+#: model_terms:ir.ui.view,arch_db:stock_hospital.stock_hospital_form_view
+#: model_terms:ir.ui.view,arch_db:stock_hospital.stock_hospital_tree_view
+msgid "Hospital"
+msgstr "Hospital"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación por "
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por "
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__patient
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__description_visit
+msgid "Reason for visit"
+msgstr "Motivo de la visita"
+
+#. module: stock_hospital
+#: model:ir.model,name:stock_hospital.model_stock_hospital
+msgid "Tracking hospital users"
+msgstr "Seguimiento de visitantes del hospita"
+
+#. module: stock_hospital
+#: model:ir.model.fields,field_description:stock_hospital.field_stock_hospital__name
+#: model_terms:ir.ui.view,arch_db:stock_hospital.stock_hospital_form_view
+msgid "Visitor's name"
+msgstr "Nombre del visitante"
